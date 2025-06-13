@@ -10,6 +10,9 @@ import { LogradouroComponent } from './logradouro.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports : [
+	LogradouroComponent
   ]
 })
 export class LogradouroModule { }

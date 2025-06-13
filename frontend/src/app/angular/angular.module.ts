@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PessoaComponent } from './pessoa.component';
+import { AngularComponent } from './angular.component';
 
 
 
 @NgModule({
   declarations: [
-    PessoaComponent
+    AngularComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    PessoaComponent
+	AngularComponent
   ]
 })
-export class PessoaModule { }
+export class AngularModule { }
